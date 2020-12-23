@@ -8,7 +8,7 @@ class Mango {
     };
     this.body = Bodies.circle(x, y,25, options);
     this.radius = 50
-    this.image=loadImage("plucking mangoes/mango.png")
+    this.image=loadImage("mango.png")
     World.add(world, this.body);
   };
   display(){
